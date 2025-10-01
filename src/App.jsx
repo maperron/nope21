@@ -553,7 +553,7 @@ export default function App() {
 
           {/* Log / journal */}
           <div style={{ width: "95%", maxWidth: 820, background: "#fff", borderRadius: 10, padding: 12, marginTop: 12, boxShadow: "0 6px 14px rgba(0,0,0,0.08)" }}>
-            <h4 style={{ margin: "0 0 8px 0" }}>Historique</h4>
+            <h4 style={{ margin: "0 0 8px 0", color: "black" }}>Historique</h4>
             <div style={{ maxHeight: 160, overflowY: "auto" }}>
               {log.map((entry, idx) => (
                 <div key={idx} style={{ marginBottom: 6 }}>
