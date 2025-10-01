@@ -557,7 +557,7 @@ export default function App() {
             <div style={{ maxHeight: 160, overflowY: "auto" }}>
               {log.map((entry, idx) => (
                 <div key={idx} style={{ marginBottom: 6 }}>
-                  <span style={{ fontSize: 13 }}>{entry}</span>
+                  <span style={{ fontSize: 13, color: "black" }}>{entry}</span>
                 </div>
               ))}
             </div>
